@@ -111,6 +111,11 @@ namespace OOP_Task1_Var4
             rec2.Print();
             Console.WriteLine();
 
+            Console.WriteLine(rec1.IsSquare);
+            Console.WriteLine(rec2.IsSquare);
+            Console.WriteLine();
+
+
             Console.WriteLine("Используя индексатор, узнаем ширину прямоугольника: ");
             Console.WriteLine(rec2[1]);
             Console.ReadKey();
